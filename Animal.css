@@ -1,0 +1,48 @@
+.top-header{
+    color: yellow;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+.birds> div{
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    display:inline-block;
+}
+.mammals> div{
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    display:inline-block;}
+
+.bird-1{
+    background-image:url(../img/eagle.jpg); 
+    background-size:contain ;
+
+}
+.bird-2{
+    background-image: url(../img/parrot.jpg);
+    background-size:cover ;
+    background-position: top center;
+}
+.bird-3{
+    background-image: url(../img/hummingbird.jpg);
+    background-size:cover ;
+    background-position: top left;
+}
+.mammals-1{
+    background-image: url(../img/moneky.jpg);
+    background-size:cover ;
+    background-position: top center;
+
+}
+.mammals-2{
+    background-image: url(../img/elephant.jpg);
+    background-size:cover ;
+    background-position: top left;
+}
+.mammals-3{
+    background-image: url(../img/dog.jpg);
+    background-size:cover ;
+    background-position: top center;
+}
